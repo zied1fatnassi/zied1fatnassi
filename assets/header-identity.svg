@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 220" width="850" height="220" role="img" aria-label="Zied Fatnassi - AI &amp; Automation Engineer">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080C14" />
+      <stop offset="50%" stop-color="#0E1524" />
+      <stop offset="100%" stop-color="#060910" />
+    </linearGradient>
+
+    <!-- Border Accent Gradient -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F5D4" />
+      <stop offset="50%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#6366F1" />
+    </linearGradient>
+
+    <!-- Text Glow Gradient -->
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="50%" stop-color="#E2E8F0" />
+      <stop offset="100%" stop-color="#94A3B8" />
+    </linearGradient>
+
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F5D4" />
+      <stop offset="100%" stop-color="#38BDF8" />
+    </linearGradient>
+
+    <!-- Scanline Pattern -->
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#1E293B" stroke-width="0.7" opacity="0.35"/>
+    </pattern>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'JetBrains Mono', monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    
+    @keyframes pulse-dot {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.3; }
+    }
+    .pulsing { animation: pulse-dot 2s infinite ease-in-out; }
+  </style>
+
+  <!-- Card Body -->
+  <rect x="2" y="2" width="846" height="216" rx="12" fill="url(#bgGrad)" stroke="url(#borderGrad)" stroke-width="1.5" />
+  
+  <!-- Subtle Grid Overlay -->
+  <rect x="2" y="2" width="846" height="216" rx="12" fill="url(#grid)" />
+
+  <!-- Terminal Window Bar -->
+  <line x1="2" y1="38" x2="848" y2="38" stroke="#1E293B" stroke-width="1" />
+  
+  <!-- Terminal Window Controls -->
+  <circle cx="24" cy="20" r="5.5" fill="#EF4444" opacity="0.85" />
+  <circle cx="42" cy="20" r="5.5" fill="#F59E0B" opacity="0.85" />
+  <circle cx="60" cy="20" r="5.5" fill="#10B981" opacity="0.85" />
+  
+  <text x="80" y="24" class="mono" font-size="11" fill="#64748B" letter-spacing="0.5">zied@production:~/core/identity</text>
+  
+  <!-- Status Badge Right -->
+  <g transform="translate(685, 11)">
+    <rect width="140" height="19" rx="9.5" fill="#0F172A" stroke="#334155" stroke-width="0.8"/>
+    <circle cx="12" cy="9.5" r="3.5" fill="#00F5D4" class="pulsing">
+      <animate attributeName="opacity" values="1;0.2;1" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text x="24" y="13.5" class="mono" font-size="9.5" font-weight="600" fill="#00F5D4" letter-spacing="0.5">STATUS: ACTIVE</text>
+  </g>
+
+  <!-- Left Accent Vertical Glow Strip -->
+  <rect x="2" y="50" width="3.5" height="70" fill="url(#cyanGrad)" rx="1.5" filter="url(#glow)"/>
+
+  <!-- Identity / Name -->
+  <text x="36" y="86" class="sans" font-size="34" font-weight="900" fill="url(#textGrad)" letter-spacing="1.5">
+    ZIED FATNASSI
+  </text>
+  
+  <text x="36" y="112" class="mono" font-size="13" font-weight="600" fill="#00F5D4" letter-spacing="1">
+    AI &amp; AUTOMATION ENGINEER  <tspan fill="#475569">|</tspan>  FULL-STACK DEVELOPER  <tspan fill="#475569">|</tspan>  FOUNDER @ MATCHOP
+  </text>
+
+  <!-- Mission Line -->
+  <text x="36" y="136" class="sans" font-size="12" fill="#94A3B8" letter-spacing="0.2">
+    Engineering multi-agent systems, intelligent search engines, and scalable digital products.
+  </text>
+
+  <!-- Metadata Matrix Tags Bottom -->
+  <g transform="translate(36, 160)">
+    <!-- Tag 1 -->
+    <rect x="0" y="0" width="138" height="24" rx="4" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+    <text x="69" y="15.5" class="mono" font-size="10.5" fill="#38BDF8" text-anchor="middle">⚡ LangGraph / ADK</text>
+
+    <!-- Tag 2 -->
+    <rect x="146" y="0" width="144" height="24" rx="4" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+    <text x="218" y="15.5" class="mono" font-size="10.5" fill="#00F5D4" text-anchor="middle">⚡ React 19 / Next.js</text>
+
+    <!-- Tag 3 -->
+    <rect x="298" y="0" width="158" height="24" rx="4" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+    <text x="377" y="15.5" class="mono" font-size="10.5" fill="#A855F7" text-anchor="middle">⚡ Supabase &amp; pgvector</text>
+
+    <!-- Tag 4 -->
+    <rect x="464" y="0" width="148" height="24" rx="4" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+    <text x="538" y="15.5" class="mono" font-size="10.5" fill="#F59E0B" text-anchor="middle">⚡ GDG Monastir Lead</text>
+
+    <!-- Tag 5 -->
+    <rect x="620" y="0" width="155" height="24" rx="4" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+    <text x="697" y="15.5" class="mono" font-size="10.5" fill="#10B981" text-anchor="middle">⚡ Business Intelligence</text>
+  </g>
+
+  <!-- Interactive Terminal Scan Indicator -->
+  <g transform="translate(36, 198)">
+    <text x="0" y="10" class="mono" font-size="10.5" fill="#475569">
+      $&gt; focus: <tspan fill="#E2E8F0">autonomous agents</tspan> • <tspan fill="#E2E8F0">ats scrapers</tspan> • <tspan fill="#E2E8F0">high-concurrency apps</tspan>
+    </text>
+  </g>
+</svg>

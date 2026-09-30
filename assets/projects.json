@@ -1,0 +1,48 @@
+{
+  "projects": [
+    {
+      "repo": "MATCHOP",
+      "display_name": "MatchOp",
+      "tagline": "AI Opportunity Discovery & Semantic Matching",
+      "description": "AI-powered opportunity discovery platform connecting students with internships and jobs via vector semantic matching and automated ATS scraping.",
+      "language": "React",
+      "stars": 0,
+      "forks": 0,
+      "url": "https://github.com/zied1fatnassi/MATCHOP",
+      "live_url": "https://matchop.tech/"
+    },
+    {
+      "repo": "AI-researcher-Agent",
+      "display_name": "AI-researcher-Agent",
+      "tagline": "Autonomous Multi-Agent Deep Research System",
+      "description": "Multi-agent research engine orchestrated with LangGraph, iterative reflection loops, web search tools, and vector RAG memory.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "url": "https://github.com/zied1fatnassi/AI-researcher-Agent",
+      "live_url": ""
+    },
+    {
+      "repo": "nomade-arts-website",
+      "display_name": "nomade-arts-website",
+      "tagline": "Cultural Space Digital Hub & 3D Studio",
+      "description": "Digital platform and 3D architectural workspace studio for cultural coworking space with space reservations and cultural events.",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "url": "https://github.com/zied1fatnassi/nomade-arts-website",
+      "live_url": ""
+    },
+    {
+      "repo": "react-todo-workshop",
+      "display_name": "react-todo-workshop",
+      "tagline": "GDSC & GDG Technical Workshop Labs",
+      "description": "Hands-on modern React and frontend architecture workshop repository designed for developer community sessions and training.",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "url": "https://github.com/zied1fatnassi/react-todo-workshop",
+      "live_url": ""
+    }
+  ]
+}

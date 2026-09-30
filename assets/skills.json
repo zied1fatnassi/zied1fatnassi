@@ -1,0 +1,29 @@
+{
+  "title": "Domain Focus & Technical Capabilities (Self-Assessed)",
+  "axes": [
+    {
+      "label": "AI & Autonomous Agents",
+      "value": 92
+    },
+    {
+      "label": "Full-Stack Web (React/Node)",
+      "value": 90
+    },
+    {
+      "label": "Data & Business Intelligence",
+      "value": 85
+    },
+    {
+      "label": "Automation & Web Scraping",
+      "value": 88
+    },
+    {
+      "label": "Product & SaaS Architecture",
+      "value": 86
+    },
+    {
+      "label": "Cloud, DevOps & Testing",
+      "value": 80
+    }
+  ]
+}
